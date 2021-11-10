@@ -20,7 +20,7 @@ let carne = 15;
 let feijao = 12;
 let brigadeiro = 8;
 
-function cozinhar(prato, tempo) {
+function microondas(prato, tempo) {
   // Identificar prato
   if (
     prato == "pipoca" ||
@@ -53,19 +53,20 @@ function cozinhar(prato, tempo) {
   // Verificar Tempo
   function verificarTempo(prato, tempo) {
     if (tempo < prato) {
-      console.log("Tempo insuficiente");
+      console.log("Tempo insuficiente\nPrato pronto, bom apetite!!!");
     } else if (tempo >= prato * 3) {
-      console.log("Kabumm");
+      console.log("Kabumm\nPrato pronto, bom apetite!!!");
     } else if (tempo > prato * 2) {
-      console.log("A comida queimou");
+      console.log("A comida queimou\nPrato pronto, bom apetite!!!");
     } else if (tempo <= prato * 2) {
       console.log("Prato pronto, bom apetite!!!");
     }
   }
 }
 
-cozinhar("pipoca", 5);
-cozinhar("macarrao", 10);
-cozinhar("carne", 20);
-cozinhar("feijao", 38);
-cozinhar("brigadeiro", 40);
+microondas("pipoca", 5);
+microondas("macarrao", 10);
+microondas("carne", 20);
+microondas("feijao", 38);
+microondas("brigadeiro", 40);
+microondas("churrasco", 40);
