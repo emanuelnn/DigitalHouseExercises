@@ -13,15 +13,12 @@
 - Se o tempo for 3x maior que o necessário para o prato, o microondas deve exibir a mensagem: “kabumm”;
 - No final de cada tarefa, o microondas deverá exibir a mensagem: "Prato pronto, bom apetite!!!".
 */
-
-
-
 function microondas(prato, tempo) {
-let pipoca = 10;
-let macarrao = 8;
-let carne = 15;
-let feijao = 12;
-let brigadeiro = 8;
+  let pipoca = 10;
+  let macarrao = 8;
+  let carne = 15;
+  let feijao = 12;
+  let brigadeiro = 8;
   // Identificar prato
   if (
     prato == "pipoca" ||
