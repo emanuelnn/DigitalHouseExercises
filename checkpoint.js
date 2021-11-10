@@ -14,13 +14,14 @@
 - No final de cada tarefa, o microondas deverá exibir a mensagem: "Prato pronto, bom apetite!!!".
 */
 
+
+
+function microondas(prato, tempo) {
 let pipoca = 10;
 let macarrao = 8;
 let carne = 15;
 let feijao = 12;
 let brigadeiro = 8;
-
-function microondas(prato, tempo) {
   // Identificar prato
   if (
     prato == "pipoca" ||
