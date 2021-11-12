@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Open+Sans:ital,wght@1,300&display=swap'); /* Fonte Inconsolata */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap');  /* Fonte Red hat Mono */
+
+
+body {
+    background-image: url(/Checkpoint/img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: inconsolata,arial,sans-serif;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+}
+
+#subBar{
+    width: 30%;
+    height: 250px;
+    margin-left:66.1%;
+    position:absolute;
+    background-color:rgb(33, 32, 32);
+        color:white;
+        border-radius:50px;
+}
+
+#topBar{
+    width: 100%;
+    height: 100px;
+    position:absolute;
+    background-color:rgb(33, 32, 32);
+    color:white;
+}
+
+#video{
+    width: 300px;
+    height: 230px;
+    position:absolute;
+    margin: 10px 0px 0px 70%;
+    background-color:rgb(72, 72, 72);
+}
+
+h1, h3, h2 {
+margin: 5px 5px 5px 10px;
+   
+}
+
+p {
+    margin:5px 5px 50px 5px;
+    font-family: Red Hat Mono, arial,sans-serif;
+    font-size: 16px;
+}
+
+#POST {
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+    margin:0px 0px 0px 0px;
+}
+#A001 {
+    opacity:0.8;
+    height: auto;
+    width: 55%;
+    margin: 300px auto 50px 10px;
+    background-color:rgb(245, 245, 245);
+    border-radius: 50px;
+    padding:15px;
+    
+}
+
+#A002 {
+    opacity:0.8;
+    width: 35%;
+    height: auto;
+    margin: 300px auto auto 15px;
+    background-color:rgb(245, 245, 245);
+    border-radius: 50px;
+    padding:15px;
+    
+}
+
+
+#instagram {
+    width: 90px;
+    height: 90px;
+    margin: 5px 0px 0px 5px;
+}
+
+#prefeitura_logo {
+    align-items: center;
+    width: 160px;
+    height: 50px;
+    margin: 25px 0px 0px 5px;
+}
+
+#menu {
+    margin:15px auto auto 10px;
+    color:white;
+}
+
+footer {
+ margin: auto auto auto 2%;
+}
+
+#githubImage {
+    width:80px;
+    text-align:center;
+}
+
+#menu {
+    position:absolute;
+    display: flex;
+    justify-content:space-between;
+    margin: 15px auto auto 15px;
+}
+
+#video_bar {
+    width:100%;
+    height: auto;
+    margin:auto auto auto 3%;
+}
+
+
