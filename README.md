@@ -1,0 +1,2 @@
+Repositório Git sincronizado!
+======================== 
