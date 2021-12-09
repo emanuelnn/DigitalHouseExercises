@@ -18,7 +18,7 @@ Crie um método para o objeto curso que receba um aluno (como parâmetro) e reto
 *Passo 6 (2 pontos)*
 Crie um método para o objeto curso que percorra a lista de estudantes e retorne um array de booleanos com os resultados se os alunos aprovaram ou não. 
 -----------------------------COMCLUÍDO
-
+//
 */
 let alunos = {
   nome: "",
