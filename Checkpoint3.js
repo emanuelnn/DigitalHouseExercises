@@ -35,7 +35,7 @@ function Aluno(nome, qtdFaltas, notas) {
   this.faltas = function () {
     this.qtdFaltas+= 1;
   },
-  this.calcMedia = function () {
+    this.calcMedia = function () {
         let soma = 0;
         for (let i = 0; i < this.notas.length; i++) {
             soma += this.notas[i];
@@ -75,7 +75,7 @@ let curso = {
   notaMin: 6,
   maxFaltas: 20,
   listaEstudantes: [],
-  novoEstudante: function (estudante) {
+  novoAluno: function (estudante) {
     this.listaEstudantes.push(estudante);
 
   },
@@ -96,9 +96,8 @@ let curso = {
     return;
   },
   avaliacao: function (aluno) {
-    let media = aluno.paramMedia();
+    let media = aluno.calcMedia();
     let resultado = false;
-
     if (
       (aluno.qtdFaltas < this.maxFaltas && media >= this.notaMin) ||
       (aluno.qtdFaltas === this.maxFaltas && media > this.notaMin * 1.1)
@@ -108,6 +107,7 @@ let curso = {
 
     return resultado;
   },
+
 }
 
 curso.listaEstudantes.push(aluno1);
@@ -116,4 +116,8 @@ curso.listaEstudantes.push(aluno3);
 curso.listaEstudantes.push(aluno4);
 curso.listaEstudantes.push(aluno5);
 
-console.log(curso.calcMedia());
+console.log(curso.listaAprovados());
+console.log(curso.avaliacao(aluno1));
+console.log(aluno1.calcMedia());
+console.log(curso.avaliacao(aluno2));
+console.log(aluno2.calcMedia());
