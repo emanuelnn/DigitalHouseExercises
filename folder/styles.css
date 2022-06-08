@@ -19,6 +19,7 @@ h1 {
 }
 
 .data {
+  
   display: flex;
   margin: auto auto auto auto;
   width: 80%;
@@ -32,6 +33,7 @@ h1 {
 .container {
 display: flex;
 margin: auto auto auto auto;
+flex-wrap:wrap;
 justify-content: space-between;
 width: 80%;
 }
@@ -44,6 +46,7 @@ flex-direction: column;
 
 input{
   width: 20em;
+  border-radius:50px;
 }
 button {
   margin: auto auto auto 30px;
@@ -88,5 +91,7 @@ button {
 }
 
 label{
-  color:aliceblue;
+margin-left: 10px;
+color:aliceblue;
+font-size: 14px;
 }

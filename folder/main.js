@@ -38,22 +38,20 @@ for (let post of posts) {
 `
 }
 
-
-function start() {
-
+function start(){
     let postagem = {
     titulo: document.querySelector("#titulo"),
     texto: document.querySelector("#texto"),
-    imagem: document.querySelector("url")
+    imagem: document.querySelector("#url")
     }
         for (let i = 0; i < 1; i++) {
         containerElemento.innerHTML += `
         <div class="item" id="img">
-        <img src="${postagem.imagem}">
-        <h2>${postagem.titulo}</h2>
-        <p>${postagem.texto}</p>
+        <img src="${postagem.imagem.value}">
+        <h2>${postagem.titulo.value}</h2>
+        <p>${postagem.texto.value}</p>
         </div>`
-        }     
+    }     
         postagem.value = ""
 }
 
